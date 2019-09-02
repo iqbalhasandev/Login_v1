@@ -1,0 +1,163 @@
+/* Theme Name:Login_v1
+Theme URI: https://iqbalhasan.gitghub.oi/Login_v1
+Author: IQBA HASAN
+Author URI: https://www.github.com/iqbalhasandev
+Author Social URI: https://www.facebook.com/iqbalhasan.dev
+Description:....
+Version: 1.0  */
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    /* //CSS */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* //CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .page-wrapper {
+        width: auto;
+        height: auto;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .page-wrapper {
+        width: auto;
+        height: auto;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .main {}
+    .page-wrapper {
+        width: auto;
+        height: auto;
+    }
+    .form-content {
+        padding: 1.5rem;
+    }
+    .form-content {
+        display: block !important;
+    }
+    .form-img a {
+        position: relative;
+        left: 0;
+    }
+    .form-title {
+        text-align: center;
+    }
+    .signup-img {
+        width: 100%;
+        text-align: center;
+    }
+    .signup-form {
+        width: 100%;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .main {
+        padding: 0;
+        text-align: center;
+    }
+    .page-wrapper {
+        width: auto;
+        height: auto;
+    }
+    .main>.container {
+        width: 100%;
+        padding: 0;
+    }
+    .form-content {
+        padding: 1.5rem;
+    }
+    .form-content {
+        display: block !important;
+        padding: 0.2rem;
+    }
+    .form-img {
+        width: 100%;
+    }
+    .form-img a {
+        position: relative;
+        left: 0;
+    }
+    .signin-form, .signup-form {
+        text-align: center;
+        width: 100%;
+        padding: 0.9rem;
+    }
+    .signup-content {
+        text-align: start;
+    }
+}
+
+@media (max-width: 319px) {
+    .main {
+        padding: 0;
+        text-align: center;
+    }
+    .page-wrapper {
+        width: auto;
+        height: auto;
+    }
+    .main>.container {
+        width: 100%;
+        padding: 0;
+    }
+    .form-content {
+        padding: 1.5rem;
+    }
+    .form-content {
+        display: block !important;
+        padding: 0.2rem;
+    }
+    .form-img {
+        width: 100%;
+    }
+    .form-img img {}
+    .form-img a {
+        position: relative;
+        left: 0;
+    }
+    .signin-form, .signup-form {
+        text-align: center;
+        width: 100%;
+        padding: 0.9rem;
+    }
+    .signup-content {
+        text-align: start;
+    }
+}
