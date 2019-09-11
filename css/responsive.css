@@ -6,7 +6,6 @@ Author Social URI: https://www.facebook.com/iqbalhasan.dev
 Description:....
 Version: 1.0  */
 
-
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -79,6 +78,43 @@ Version: 1.0  */
     }
     .signup-form {
         width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .main {
+        padding: 0;
+        text-align: center;
+    }
+    .page-wrapper {
+        width: auto;
+        height: auto;
+    }
+    .main>.container {
+        width: 100%;
+        padding: 0;
+    }
+    .form-content {
+        padding: 1.5rem;
+    }
+    .form-content {
+        display: block !important;
+        padding: 0.2rem;
+    }
+    .form-img {
+        width: 100%;
+    }
+    .form-img a {
+        position: relative;
+        left: 0;
+    }
+    .signin-form, .signup-form {
+        text-align: center;
+        width: 100%;
+        padding: 0.9rem;
+    }
+    .signup-content {
+        text-align: start;
     }
 }
 
